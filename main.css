@@ -112,3 +112,28 @@ html, body {
         border-top: 5px solid #333;
     }
 }
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-item {
+    width: 250px;
+    text-align: center;
+}
+
+.demo-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-item p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
